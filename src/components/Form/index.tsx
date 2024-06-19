@@ -38,7 +38,7 @@ export const Form = () => {
   console.log("errors", errors);
 
   const handleSubmitData = async (data: any) => {
-    console.log("submig", data);
+    console.log("submit", data);
 
     await asyncFunction();
 
